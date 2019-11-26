@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EasyEdit">
+        <attr name="easy_hint" format="string"/>
+        <attr name="easy_inputType">
+            <enum name="text" value="0"/>
+            <enum name="password" value="1"/>
+            <enum name="phone" value="2"/>
+        </attr>
+        <attr name="easy_cursor_color" format="color"/>
+        <attr name="easy_isShowClear" format="boolean"/>
+        <attr name="easy_isViewPassword" format="boolean"/>
+        <attr name="easy_background" format="reference"/>
+    </declare-styleable>
+</resources>
