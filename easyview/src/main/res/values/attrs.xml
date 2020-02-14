@@ -12,4 +12,13 @@
         <attr name="easy_isViewPassword" format="boolean"/>
         <attr name="easy_background" format="reference"/>
     </declare-styleable>
+
+
+
+    <declare-styleable name="EasyListView">
+        <attr name="maxLine" format="integer"/>
+        <attr name="minLine" format="integer"/>
+    </declare-styleable>
+
+
 </resources>
