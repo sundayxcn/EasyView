@@ -15,8 +15,8 @@
     <ImageView
         android:scaleType="center"
         android:src="@mipmap/ic_right"
-        android:layout_alignParentEnd="true"
-        android:paddingEnd="20dp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
         android:id="@+id/iv_right"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"/>
