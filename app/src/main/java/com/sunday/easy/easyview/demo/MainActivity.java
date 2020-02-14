@@ -8,6 +8,9 @@ import android.widget.Button;
 
 import com.sunday.easy.easyview.EasyPopup;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,7 +21,11 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                List list = new ArrayList();
+                list.add("选项一");
+                list.add("选项二");
                 EasyPopup easyPopup = new EasyPopup(getBaseContext(),"测试标题","详细描述");
+                easyPopup.setListData(new EasyPopup.SimpleTextAdapter(getBaseContext(),list),null);
                 easyPopup.show();
             }
         });
